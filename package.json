@@ -1,0 +1,16 @@
+{
+  "name": "angular-demo",
+  "version": "1.0.0",
+  "description": "JSON server - fake people",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node ./server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^3.0.1",
+    "json-server": "^0.8.7"
+  }
+}
