@@ -8,3 +8,12 @@ The API endpoint is at http://localhost:3000/people
 
 http://localhost:3000/ will show some info about JSONServer - including a link to its README at https://github.com/typicode/json-server
 
+Routes:  
+```
+GET    /people
+GET    /people/123
+POST   /people
+PUT    /people/123
+PATCH  /people/123
+DELETE /people/123
+```
