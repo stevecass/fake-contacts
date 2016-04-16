@@ -19,7 +19,7 @@ function generatePerson(id) {
       zipCode: faker.address.zipCode(),
     },
     phone: faker.phone.phoneNumber(),
-    bio: faker.lorem.paragraph()
+    note: faker.lorem.paragraph()
   }
 }
 
