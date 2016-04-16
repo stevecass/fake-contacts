@@ -5,18 +5,19 @@ function generatePerson(id) {
   return {
     id: id,
     name: {
-      first: faker.name.firstName(),
-      last: faker.name.lastName()
+      given: faker.name.firstName(),
+      family: faker.name.lastName()
     },
     email: faker.internet.email(),
     username: faker.internet.userName(),
     avatar: faker.internet.avatar(),
     company: faker.company.companyName(),
     address: {
-      streetAddress: faker.address.streetAddress(),
+      street: faker.address.streetAddress(),
       city: faker.address.city(),
       state: faker.address.state(),
-      zipCode: faker.address.zipCode(),
+      zip: faker.address.zipCode(),
+      country: faker.address.country()
     },
     phone: faker.phone.phoneNumber(),
     note: faker.lorem.paragraph()
